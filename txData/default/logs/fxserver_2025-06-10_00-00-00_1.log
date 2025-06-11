@@ -1,0 +1,1911 @@
+================================================================
+======== Log Rotated - 10.6.2025, 14:44:56                      
+================================================================
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [6216] FXServer Starting - 10.6.2025, 14:44:57         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 26 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for Hud
+[  script:es_extended] [WARNING] Resource Hud used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[           resources] Started resource Hud
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ script:black_market] TEST
+[ script:black_market] [Blackmarket] Spieler alexk hat $0
+[ script:black_market] TEST
+[ script:black_market] [Blackmarket] Spieler alexk hat $0
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ script:black_market] TEST
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 2
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ script:jobs_creator] Translations loaded successfully!
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:36: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:36)
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:49: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:49)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:36: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:36)
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:49: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:49)
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:49: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:49)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:admin_panel] [Admin Panel Server] sendMessage Event erhalten von Spieler:	2
+[  script:admin_panel] [Admin Panel Server] Nachricht:	test
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:38: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:38)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [15144] FXServer Starting - 10.6.2025, 15:33:10        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 27 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[           resources] Warning: Resource hud does not support the current game (gta5).
+[           resources] Warning: Resource hud does not specify an `fx_version` in fxmanifest.lua.
+[ citizen-server-impl] Couldn't start resource hud.
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-impl] Couldn't find resource Hud.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 1/27 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "hud"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource hud
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ stop "hud"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource hud
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:21: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:21)
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:7: attempt to call a nil value (global 'IsPlayerAdmin')
+[  script:admin_panel] > handler (@admin_panel/server/main.lua:7)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 2
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/26 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ stop "hud"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource hud
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 2 new resources, and refreshed 0/26 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "inventory"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Modern Inventory] Standard-Items zur Datenbank hinzugefügt
+[    script:inventory] [Modern Inventory] Server geladen!
+[ resources:inventory] Warning: could not find file `html/images/*.png` (defined in fxmanifest.lua:19)
+[           resources] Started resource inventory (1 warning)
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ script:jobs_creator] Translations loaded successfully!
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 3
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/28 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "inventory"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/28 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "inventory"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource inventory
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [5500] FXServer Starting - 10.6.2025, 19:13:46         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ script:jobs_creator] Translations loaded successfully!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [17344] FXServer Starting - 10.6.2025, 20:29:07        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19092] FXServer Starting - 10.6.2025, 20:39:40        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:670: attempt to call a table value (for iterator 'for iterator')
+[  script:es_extended] > fn (@es_extended/server/main.lua:670)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] test
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:670: attempt to call a table value (for iterator 'for iterator')
+[  script:es_extended] > fn (@es_extended/server/main.lua:670)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] test
+[  script:es_extended] Deleted131329
+[  script:es_extended] Deleted131585
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] test
+[  script:es_extended] Deleted131330
+[  script:es_extended] Deleted131586
+[  script:es_extended] Deleted131841
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] test
+[  script:es_extended] Deleted131331
+[  script:es_extended] Deleted131587
+[  script:es_extended] test
+[  script:es_extended] Deleted131332
+[  script:es_extended] Deleted131588
+[  script:es_extended] test
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] test
+[  script:es_extended] Deleted131333
+[  script:es_extended] Deleted131589
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ script:jobs_creator] Translations loaded successfully!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[  script:es_extended] t
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:670: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:670)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [12752] FXServer Starting - 10.6.2025, 21:35:46        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [20628] FXServer Starting - 10.6.2025, 21:37:36        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [21408] FXServer Starting - 10.6.2025, 21:39:04        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [18808] FXServer Starting - 10.6.2025, 21:40:42        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16148] FXServer Starting - 10.6.2025, 21:43:02        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:jobs_creator] Loaded 14 jobs
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] 1
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:670: attempt to call a nil value (global 'PlayerId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:670)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] SCRIPT ERROR: @es_extended/server/main.lua:669: attempt to call a nil value (global 'PlayerPedId')
+[  script:es_extended] > fn (@es_extended/server/main.lua:669)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] 1
+[  script:es_extended] 1
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] 1
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] 🟢 Thread gestartet
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] 🟢 Thread gestartet
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] 🟢 Thread läuft
+[  script:es_extended] Spieler 1 Position: vec3(238.509888, -639.098877, 39.558228)
+[  script:es_extended] 🟢 Thread läuft
+[  script:es_extended] Spieler 1 Position: vec3(238.509888, -639.098877, 39.558228)
+[  script:es_extended] 🟢 Thread läuft
+[  script:es_extended] Spieler 1 Position: vec3(238.509888, -639.098877, 39.558228)
+[  script:es_extended] 🟢 Thread läuft
+[  script:es_extended] Spieler 1 Position: vec3(238.509888, -639.098877, 39.558228)
+[  script:es_extended] 🟢 Thread läuft
+[  script:es_extended] Spieler 1 Position: vec3(238.509888, -639.098877, 39.558228)
+[  script:es_extended] 🟢 Thread läuft
+[  script:es_extended] Spieler 1 Position: vec3(238.509888, -639.098877, 39.558228)
+[  script:es_extended] 🟢 Thread läuft
+[  script:es_extended] Spieler 1 Position: vec3(238.509888, -639.098877, 39.558228)
+[  script:es_extended] 🟢 Thread läuft
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19092] FXServer Starting - 10.6.2025, 22:04:37        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 28 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[  script:es_extended] 1
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[  script:es_extended] 1
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ restart es_extended
+[           resources] Stopping resource es_extended
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] for loop 2
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 8.1157159805298
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 8.1157159805298
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 8.1157159805298
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 8.1157159805298
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 8.1157159805298
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 15.590238571167
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 15.590238571167
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 15.590238571167
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 15.590238571167
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 15.590238571167
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 15.590238571167
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 15.590238571167
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 29.712604522705
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 16.338266372681
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 28.878944396973
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 18.517444610596
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 28.868711471558
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 18.521980285645
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 28.434968948364
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131329) in Nähe von Spieler 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 18.826734542847
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131585) in Nähe von Spieler 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.42332872748375
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 1.593982219696
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 4.5966291427612
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 8.0974349975586
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131330) in Nähe von Spieler 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 1.3801233768463
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 3.8428025245667
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 8.1738843917847
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131586) in Nähe von Spieler 1
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 19.241086959839
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131331) in Nähe von Spieler 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 48.039974212646
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131587) in Nähe von Spieler 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 41.025501251221
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131332) in Nähe von Spieler 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 29.679901123047
+[  script:es_extended] distance < 5
+[  script:es_extended] Server: Fahrzeug gelöscht (131588) in Nähe von Spieler 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] for loop 1
+[  script:es_extended] for loop 2
+[  script:es_extended] vehicle check
+[  script:es_extended] distance: 0.0
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[    c-scripting-core] script error in native 000000002f7a49e6: Argument at index 1 was null.
+[  script:es_extended] SCRIPT ERROR: native 000000002f7a49e6: Argument at index 1 was null.
+[  script:es_extended] > [global chunk] (TriggerClientEventInternal.lua:3)
+[  script:es_extended] > fn (@es_extended/server/main.lua:685)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[    c-scripting-core] script error in native 000000002f7a49e6: Argument at index 1 was null.
+[  script:es_extended] SCRIPT ERROR: native 000000002f7a49e6: Argument at index 1 was null.
+[  script:es_extended] > [global chunk] (TriggerClientEventInternal.lua:3)
+[  script:es_extended] > fn (@es_extended/server/main.lua:685)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ script:jobs_creator] Translations loaded successfully!
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+[           resources] Scanning resources.
+║             TXADMIN║ txaReportResources 
+[           resources] Found 1 new resources, and refreshed 0/28 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "phone"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for phone
+[           resources] Started resource phone
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14224] FXServer Starting - 10.6.2025, 22:49:24        
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 29 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for phone
+[           resources] Started resource phone
+[           resources] Started resource NativeUI
+[    c-scripting-core] Creating script environments for Menu
+[         script:Menu] aduty hi
+[           resources] Started resource Menu
+[    c-scripting-core] Creating script environments for admin_panel
+[  script:admin_panel] SCRIPT ERROR: @admin_panel/server/main.lua:65: attempt to call a nil value (global 'RegisterClientEvent')
+[  script:admin_panel] > fn (@admin_panel/server/main.lua:65)
+[           resources] Started resource admin_panel
+[    c-scripting-core] Creating script environments for black_market
+[           resources] Started resource black_market
+[           resources] Started resource commands
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for inventory
+[  script:es_extended] [WARNING] Resource inventory used the getSharedObject event. This is not the recommended way to import ESX. Visit https://docs.esx-legacy.com/tutorials/tutorials-esx/sharedevent to find out why.
+[    script:inventory] [Inventory] Server geladen!
+[           resources] Started resource inventory
+[    c-scripting-core] Creating script environments for jobs_creator
+[ script:jobs_creator] SCRIPT ERROR: ox_lib must be started before this resource.
+[ script:jobs_creator] > fn (@ox_lib/init.lua:27)
+[           resources] Started resource jobs_creator
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for revive_npc
+[           resources] Started resource revive_npc
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource Commands.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[    script:inventory] [Inventory] Standard-Items zur Datenbank hinzugefügt
+[ script:jobs_creator] Setting up database (it may take few seconds)...
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ script:jobs_creator] Database ready
+[ script:jobs_creator] 
+[ script:jobs_creator] Automatically using ESX Skin
+[ script:jobs_creator] Using default ESX inventory
+[ script:jobs_creator] Automatically using default for stash
+[ script:jobs_creator] Automatically using default for outfits
+[ script:jobs_creator] Automatically using default for search_player
+[ script:jobs_creator] Automatically using jaksam for skillcheck
+[ script:jobs_creator] Automatically using jaksam for progressbar
+[ script:jobs_creator] Automatically using default for banking
+[ script:jobs_creator] Automatically using none for textui
+[ script:jobs_creator] Automatically using jaksam for logs
+[ script:jobs_creator] Automatically using menu_default for menu
+[ script:jobs_creator] server/main.lua can't be found in esx_addonaccount
+[ script:jobs_creator] Config loaded successfully
+[ script:jobs_creator] Loaded 14 jobs
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/29 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"

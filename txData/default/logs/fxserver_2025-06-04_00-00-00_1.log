@@ -1,0 +1,1500 @@
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [3216] FXServer Starting - 4.6.2025, 18:18:40          
+║             TXADMIN║ ================================================================
+║             TXADMIN║ setr "txAdmin-locale" "en"
+║             TXADMIN║ set "txAdmin-serverName" "Test"
+║             TXADMIN║ set "txAdmin-checkPlayerJoin" "true"
+║             TXADMIN║ set "txAdmin-menuAlignRight" "false"
+║             TXADMIN║ set "txAdmin-menuPageKey" "Tab"
+║             TXADMIN║ set "txAdmin-playerModePtfx" "true"
+║             TXADMIN║ set "txAdmin-hideAdminInPunishments" "true"
+║             TXADMIN║ set "txAdmin-hideAdminInMessages" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultAnnouncement" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultDirectMessage" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultWarning" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultScheduledRestartWarning" "false"
+║             TXADMIN║ txaEvent "configChanged" "{}"
+[           resources] Scanning resources.
+[           resources] Found 17 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[           resources] Started resource esx_chat_theme
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_context.
+[ citizen-server-impl] Couldn't start resource esx_context.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_identity.
+[ citizen-server-impl] Couldn't start resource esx_identity.
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_default.
+[ citizen-server-impl] Couldn't start resource esx_menu_default.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_dialog.
+[ citizen-server-impl] Couldn't start resource esx_menu_dialog.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_list.
+[ citizen-server-impl] Couldn't start resource esx_menu_list.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_multicharacter.
+[ citizen-server-impl] Couldn't start resource esx_multicharacter.
+[    c-scripting-core] Creating script environments for esx_notify
+[   script:esx_notify] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[script:esx_progressb] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_progressbar
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_skin.
+[ citizen-server-impl] Couldn't start resource esx_skin.
+[    c-scripting-core] Creating script environments for esx_textui
+[   script:esx_textui] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_textui
+[           resources] Started resource skinchanger
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [8048] FXServer Starting - 4.6.2025, 18:28:31          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[        resources:ox] Warning: ox does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 18 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[           resources] Started resource esx_chat_theme
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_context.
+[ citizen-server-impl] Couldn't start resource esx_context.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_identity.
+[ citizen-server-impl] Couldn't start resource esx_identity.
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_default.
+[ citizen-server-impl] Couldn't start resource esx_menu_default.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_dialog.
+[ citizen-server-impl] Couldn't start resource esx_menu_dialog.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_list.
+[ citizen-server-impl] Couldn't start resource esx_menu_list.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_multicharacter.
+[ citizen-server-impl] Couldn't start resource esx_multicharacter.
+[    c-scripting-core] Creating script environments for esx_notify
+[   script:esx_notify] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[script:esx_progressb] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_progressbar
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_skin.
+[ citizen-server-impl] Couldn't start resource esx_skin.
+[    c-scripting-core] Creating script environments for esx_textui
+[   script:esx_textui] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_textui
+[           resources] Started resource skinchanger
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16456] FXServer Starting - 4.6.2025, 18:30:43         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[        resources:ox] Warning: ox does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 18 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[           resources] Started resource esx_chat_theme
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_context.
+[ citizen-server-impl] Couldn't start resource esx_context.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_identity.
+[ citizen-server-impl] Couldn't start resource esx_identity.
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_default.
+[ citizen-server-impl] Couldn't start resource esx_menu_default.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_dialog.
+[ citizen-server-impl] Couldn't start resource esx_menu_dialog.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_list.
+[ citizen-server-impl] Couldn't start resource esx_menu_list.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_multicharacter.
+[ citizen-server-impl] Couldn't start resource esx_multicharacter.
+[    c-scripting-core] Creating script environments for esx_notify
+[   script:esx_notify] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[script:esx_progressb] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_progressbar
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_skin.
+[ citizen-server-impl] Couldn't start resource esx_skin.
+[    c-scripting-core] Creating script environments for esx_textui
+[   script:esx_textui] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_textui
+[           resources] Started resource skinchanger
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server shutting down (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [12388] FXServer Starting - 4.6.2025, 18:32:08         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[        resources:ox] Warning: ox does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 18 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[           resources] Started resource esx_chat_theme
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_context.
+[ citizen-server-impl] Couldn't start resource esx_context.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_identity.
+[ citizen-server-impl] Couldn't start resource esx_identity.
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_default.
+[ citizen-server-impl] Couldn't start resource esx_menu_default.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_dialog.
+[ citizen-server-impl] Couldn't start resource esx_menu_dialog.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_list.
+[ citizen-server-impl] Couldn't start resource esx_menu_list.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_multicharacter.
+[ citizen-server-impl] Couldn't start resource esx_multicharacter.
+[    c-scripting-core] Creating script environments for esx_notify
+[   script:esx_notify] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[script:esx_progressb] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_progressbar
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_skin.
+[ citizen-server-impl] Couldn't start resource esx_skin.
+[    c-scripting-core] Creating script environments for esx_textui
+[   script:esx_textui] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_textui
+[           resources] Started resource skinchanger
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [8500] FXServer Starting - 4.6.2025, 18:33:46          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[        resources:ox] Warning: ox does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 18 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[ citizen-server-impl] Couldn't find resource oxmysql.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[ citizen-server-impl] Couldn't find resource ox_lib.
+[ citizen-server-impl] Couldn't find resource ox_inventory.
+[ citizen-server-impl] Couldn't find resource ox.
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[ citizen-server-impl] Couldn't start resource es_extended.
+[           resources] Started resource esx_chat_theme
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_context.
+[ citizen-server-impl] Couldn't start resource esx_context.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_identity.
+[ citizen-server-impl] Couldn't start resource esx_identity.
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_default.
+[ citizen-server-impl] Couldn't start resource esx_menu_default.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_dialog.
+[ citizen-server-impl] Couldn't start resource esx_menu_dialog.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_menu_list.
+[ citizen-server-impl] Couldn't start resource esx_menu_list.
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_multicharacter.
+[ citizen-server-impl] Couldn't start resource esx_multicharacter.
+[    c-scripting-core] Creating script environments for esx_notify
+[   script:esx_notify] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[script:esx_progressb] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_progressbar
+[    c-resources-core] Could not find dependency oxmysql for resource es_extended.
+[    c-resources-core] Could not start dependency es_extended for resource esx_skin.
+[ citizen-server-impl] Couldn't start resource esx_skin.
+[    c-scripting-core] Creating script environments for esx_textui
+[   script:esx_textui] SCRIPT ERROR: @es_extended/imports.lua:1: No such export getSharedObject in resource es_extended
+[           resources] Started resource esx_textui
+[           resources] Started resource skinchanger
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16172] FXServer Starting - 4.6.2025, 18:35:13         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[ citizen-server-impl] Couldn't find resource ox.
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'esxserver'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "password": "******",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "esxserver",
+[      script:oxmysql]   "waitForConnections": "true",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'esxserver'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "password": "******",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "esxserver",
+[      script:oxmysql]   "waitForConnections": "true",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'esxserver'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "password": "******",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "esxserver",
+[      script:oxmysql]   "waitForConnections": "true",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+[      script:oxmysql] Unable to establish a connection to the database (ER_BAD_DB_ERROR)!
+[      script:oxmysql] Error 1049: Unknown database 'esxserver'
+[      script:oxmysql] See https://github.com/overextended/oxmysql/issues/154 for more information.
+[      script:oxmysql] {
+[      script:oxmysql]   "connectTimeout": 60000,
+[      script:oxmysql]   "trace": false,
+[      script:oxmysql]   "supportBigNumbers": true,
+[      script:oxmysql]   "jsonStrings": true,
+[      script:oxmysql]   "user": "root",
+[      script:oxmysql]   "password": "******",
+[      script:oxmysql]   "host": "localhost",
+[      script:oxmysql]   "port": null,
+[      script:oxmysql]   "database": "esxserver",
+[      script:oxmysql]   "waitForConnections": "true",
+[      script:oxmysql]   "charset": "utf8mb4",
+[      script:oxmysql]   "namedPlaceholders": false,
+[      script:oxmysql]   "flags": [
+[      script:oxmysql]     "CONNECT_WITH_DB"
+[      script:oxmysql]   ]
+[      script:oxmysql] }
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [10660] FXServer Starting - 4.6.2025, 18:36:45         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[ citizen-server-impl] Couldn't find resource ox.
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:ox_inventory] [ox_inventory] [INFO] 29 items have been copied from the database.
+[ script:ox_inventory] [ox_inventory] [INFO] You should restart the resource to load the new items.
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 33 items.
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[script:esx_multichar] [INFO] Updated 1 columns to use VARCHAR(46)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 247 items
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player 1 Has been granted admin permissions via Ace Perms.
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 2
+║             TXADMIN║ txaEvent "announcement" "{\"message\":\"test\",\"author\":\"Zwonkoh\"}"
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 3
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ stop "ox_inventory"
+[           resources] Stopping resource ox_inventory
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "ox_inventory"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 33 items.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 247 items
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/20 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14760] FXServer Starting - 4.6.2025, 21:51:40         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 21 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[           resources] Started resource traffic_density
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 33 items.
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 247 items
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ stop "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [3552] FXServer Starting - 4.6.2025, 21:55:58          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 21 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[           resources] Started resource traffic_density
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 33 items.
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 247 items
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ stop "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+[           resources] Scanning resources.
+║             TXADMIN║ txaReportResources 
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ stop "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+[           resources] Scanning resources.
+║             TXADMIN║ txaReportResources 
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ stop "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 1/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [19888] FXServer Starting - 4.6.2025, 22:01:57         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 21 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 33 items.
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 247 items
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [14508] FXServer Starting - 4.6.2025, 22:13:32         
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 21 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 33 items.
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 247 items
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "traffic_density"
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+║             TXADMIN║ txaReportResources 
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "traffic_density"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource traffic_density
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:Menu] Warning: Menu does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 2 new resources, and refreshed 0/21 resources.
+[           resources] 1 warning was encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:Menu] Warning: Menu does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/22 resources.
+[           resources] 1 warning was encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "NativeUI"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource NativeUI
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:Menu] Warning: Menu does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/22 resources.
+[           resources] 1 warning was encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "NativeUI"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource NativeUI
+[           resources] Started resource NativeUI
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:Menu] Warning: Menu does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/22 resources.
+[           resources] 1 warning was encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:menu] Warning: menu does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 1 new resources, and refreshed 0/22 resources.
+[           resources] 1 warning was encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/22 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:Menu] Warning: [Menu] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:NativeUI] Warning: [NativeUI] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:elements] Warning: elements does not have a resource manifest (fxmanifest.lua)
+[     resources:items] Warning: items does not have a resource manifest (fxmanifest.lua)
+[    resources:panels] Warning: panels does not have a resource manifest (fxmanifest.lua)
+[   resources:windows] Warning: windows does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 4 new resources, and refreshed 1/22 resources.
+[           resources] 6 warnings were encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "NativeUI"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource NativeUI
+[  resources:NativeUI] Warning: could not find client_script `NativeUI.lua` (defined in __resource.lua:32)
+[           resources] Started resource NativeUI (1 warning)
+[  script:es_extended] [INFO] Saved player "Zwonkoh Mevludovic"
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource menu
+[      resources:menu] Warning: could not find client_script `menu.lua` (defined in fxmanifest.lua:10)
+[           resources] Started resource menu (1 warning)
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:Menu] Warning: [Menu] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:NativeUI] Warning: [NativeUI] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:elements] Warning: elements does not have a resource manifest (fxmanifest.lua)
+[     resources:items] Warning: items does not have a resource manifest (fxmanifest.lua)
+[    resources:panels] Warning: panels does not have a resource manifest (fxmanifest.lua)
+[   resources:windows] Warning: windows does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 4 new resources, and refreshed 1/22 resources.
+[           resources] 6 warnings were encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource menu
+[           resources] Started resource menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "NativeUI"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource menu
+[           resources] Stopping resource NativeUI
+[  resources:NativeUI] Warning: could not find client_script `NativeUI.lua` (defined in __resource.lua:32)
+[           resources] Started resource NativeUI (1 warning)
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"Zwonkoh\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [6660] FXServer Starting - 4.6.2025, 23:11:38          
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[      resources:Menu] Warning: [Menu] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:NativeUI] Warning: [NativeUI] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:elements] Warning: elements does not have a resource manifest (fxmanifest.lua)
+[     resources:items] Warning: items does not have a resource manifest (fxmanifest.lua)
+[    resources:panels] Warning: panels does not have a resource manifest (fxmanifest.lua)
+[   resources:windows] Warning: windows does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 26 resources.
+[           resources] 6 warnings were encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[ citizen-server-impl] Couldn't find resource spawnmanager.
+[ citizen-server-impl] Couldn't find resource hardcap.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[           resources] Started resource esx_chat_theme
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for esx_loadingscreen
+[           resources] Started resource esx_loadingscreen
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-resources-core] Could not find dependency NativeUI for resource menu.
+[ citizen-server-impl] Couldn't start resource menu.
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for traffic_density
+[script:traffic_densi] ReducedNPCs loaded! Made by man0s (https://github.com/man0s)
+[           resources] Started resource traffic_density
+[ citizen-server-impl] Couldn't find resource NativeUI.
+[ citizen-server-impl] Couldn't find resource Menu.
+[ citizen-server-main] Warning: The players.json endpoint has been modified to no longer return the player identifiers without authentication.
+[ citizen-server-main] To learn more about this change read our announcement at https://aka.cfx.re/players-json-privacy
+[      script:oxmysql] [11.7.2-MariaDB] Database server connection established!
+[ script:ox_inventory] [ox_inventory] [INFO] Database contains 33 items.
+[  script:es_extended] [INFO] ESX Legacy 1.12.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://zwonkoh-3vvy9b.users.cfx.re/
+[ script:ox_inventory] [ox_inventory] [INFO] Inventory has loaded 247 items
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "menu"
+║             TXADMIN║ txaReportResources 
+[    c-resources-core] Could not find dependency NativeUI for resource menu.
+[ citizen-server-impl] Couldn't start resource menu.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[      resources:Menu] Warning: [Menu] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:NativeUI] Warning: [NativeUI] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[  resources:elements] Warning: elements does not have a resource manifest (fxmanifest.lua)
+[     resources:items] Warning: items does not have a resource manifest (fxmanifest.lua)
+[    resources:panels] Warning: panels does not have a resource manifest (fxmanifest.lua)
+[   resources:windows] Warning: windows does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 4 new resources, and refreshed 1/22 resources.
+[           resources] 6 warnings were encountered.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 2 new resources, and refreshed 0/21 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "NativeUI"
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource NativeUI
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+[           resources] Scanning resources.
+║             TXADMIN║ txaReportResources 
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Player "Zwonkoh Mevludovic" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ stop "ox_inventory"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource ox_inventory
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+║             Zwonkoh║ refresh 
+[           resources] Scanning resources.
+║             TXADMIN║ txaReportResources 
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "Menu"
+[           resources] Stopping resource Menu
+║             TXADMIN║ txaReportResources 
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] Server list query returned an error: System.Net.Sockets.SocketException: Host is unreachable <- System.Net.Http.HttpRequestException: Host is unreachable (93.235.131.37:30120)
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ refresh 
+║             TXADMIN║ txaReportResources 
+[           resources] Scanning resources.
+[           resources] Found 0 new resources, and refreshed 0/23 resources.
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+║             Zwonkoh║ ensure "Menu"
+║             TXADMIN║ txaReportResources 
+[           resources] Stopping resource Menu
+[           resources] Started resource Menu
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.

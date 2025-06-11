@@ -1,0 +1,38 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 6.6.2025, 16:01:45
+================================================================
+================================================================
+======== Log Rotated - 6.6.2025, 16:01:45                       
+================================================================
+[16:02:33][Zwonkoh] logged in from 127.0.0.1 via cfxre
+[16:13:13][Zwonkoh] Ensured resource "Menu"
+[18:47:42][Zwonkoh] Refreshed resources
+[18:47:46][Zwonkoh] Ensured resource "black_market"
+[18:47:54][Zwonkoh] Stopped resource "black_market"
+[18:59:30][Zwonkoh] Ensured resource "black_market"
+[18:59:37][Zwonkoh] Refreshed resources
+[18:59:38][Zwonkoh] Stopped resource "black_market"
+[19:01:38][Zwonkoh] Ensured resource "black_market"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 6.6.2025, 23:29:43
+================================================================
+[23:59:50][Zwonkoh] logged in from 127.0.0.1 via cfxre
+[00:00:00][Zwonkoh] Ensured resource "black_market"
+[00:01:38][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[00:59:04][Zwonkoh] Ensured resource "black_market"
+[01:55:19][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[02:13:15][Zwonkoh] Ensured resource "black_market"
+[02:13:15][Zwonkoh] Stopped resource "black_market"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 7.6.2025, 02:17:52
+================================================================
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 7.6.2025, 11:54:30
+================================================================
+[11:54:39][Zwonkoh] logged in from 127.0.0.1 via password
+[12:28:18][Zwonkoh] Refreshed resources
+[12:28:21][Zwonkoh] Ensured resource "Hud"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 7.6.2025, 14:51:06
+================================================================
+[14:51:15][Zwonkoh] logged in from 127.0.0.1 via password

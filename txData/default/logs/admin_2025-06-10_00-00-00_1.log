@@ -1,0 +1,45 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 10.6.2025, 14:44:56
+================================================================
+================================================================
+======== Log Rotated - 10.6.2025, 14:44:56                      
+================================================================
+[14:45:05][Zwonkoh] logged in from 127.0.0.1 via password
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 10.6.2025, 15:33:10
+================================================================
+[15:33:12][Zwonkoh] logged in from 127.0.0.1 via password
+[15:39:38][Zwonkoh] Refreshed resources
+[15:39:39][Zwonkoh] Ensured resource "hud"
+[15:39:56][Zwonkoh] Stopped resource "hud"
+[15:50:16][Zwonkoh] Refreshed resources
+[15:50:17][Zwonkoh] Stopped resource "hud"
+[15:58:39][Zwonkoh] Refreshed resources
+[15:58:42][Zwonkoh] Ensured resource "inventory"
+[16:10:21][Zwonkoh] Refreshed resources
+[16:10:24][Zwonkoh] Ensured resource "inventory"
+[16:14:53][Zwonkoh] Refreshed resources
+[16:14:54][Zwonkoh] Ensured resource "inventory"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 10.6.2025, 19:13:45
+================================================================
+[19:14:05][Zwonkoh] logged in from 127.0.0.1 via password
+[20:29:02][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[20:39:34][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[21:35:41][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 10.6.2025, 21:37:35
+================================================================
+[21:37:48][Zwonkoh] logged in from 127.0.0.1 via password
+[21:38:58][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[21:40:36][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 10.6.2025, 21:43:02
+================================================================
+[21:44:09][Zwonkoh] logged in from 127.0.0.1 via password
+[22:04:31][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[22:18:54][Zwonkoh] [Zwonkoh] executed "restart es_extended"
+[22:44:26][Zwonkoh] Refreshed resources
+[22:44:27][Zwonkoh] Ensured resource "phone"
+[22:49:18][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[22:49:39][Zwonkoh] Refreshed resources

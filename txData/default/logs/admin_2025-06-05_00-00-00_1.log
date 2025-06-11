@@ -1,0 +1,133 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 4.6.2025, 17:47:07
+================================================================
+[17:48:16][Zwonkoh] created admins file
+[18:01:41][Zwonkoh] Config changes: 
+[18:01:41][Zwonkoh] Changing global settings via setup stepper and started Deployer.
+[18:13:08][Zwonkoh] Setting recipe.
+[18:16:21][Zwonkoh] Running recipe.
+[18:18:40][Zwonkoh] Config changes: general.serverName, server.dataPath
+[18:18:40][Zwonkoh] Changing global/fxserver settings via setup stepper.
+[18:28:25][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[18:30:37][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[18:31:59][Zwonkoh] [Zwonkoh] executed "STOP SERVER"
+[18:32:08][Zwonkoh] [Zwonkoh] executed "START SERVER"
+[18:33:41][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[18:35:07][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[18:36:40][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[18:50:40][Zwonkoh] Sending announcement: test
+[21:22:09][Zwonkoh] Stopped resource "ox_inventory"
+[21:29:37][Zwonkoh] Ensured resource "ox_inventory"
+[21:44:34][Zwonkoh] Refreshed resources
+[21:44:36][Zwonkoh] Ensured resource "traffic_density"
+[21:44:45][Zwonkoh] Refreshed resources
+[21:44:50][Zwonkoh] Refreshed resources
+[21:46:49][Zwonkoh] Refreshed resources
+[21:46:50][Zwonkoh] Ensured resource "traffic_density"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 4.6.2025, 21:51:40
+================================================================
+[21:52:15][Zwonkoh] logged in from 127.0.0.1 via cfxre
+[21:55:24][Zwonkoh] logged in from 127.0.0.1 via password
+[21:55:46][Zwonkoh] Stopped resource "traffic_density"
+[21:55:53][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[21:56:03][Zwonkoh] Refreshed resources
+[21:56:05][Zwonkoh] Stopped resource "traffic_density"
+[21:56:06][Zwonkoh] Refreshed resources
+[21:57:12][Zwonkoh] Ensured resource "traffic_density"
+[21:57:45][Zwonkoh] Refreshed resources
+[21:57:47][Zwonkoh] Ensured resource "traffic_density"
+[21:57:57][Zwonkoh] Stopped resource "traffic_density"
+[21:58:58][Zwonkoh] Refreshed resources
+[21:58:59][Zwonkoh] Ensured resource "traffic_density"
+[21:59:05][Zwonkoh] Refreshed resources
+[21:59:16][Zwonkoh] Stopped resource "traffic_density"
+[22:01:36][Zwonkoh] Refreshed resources
+[22:01:38][Zwonkoh] Ensured resource "traffic_density"
+[22:01:44][Zwonkoh] Refreshed resources
+[22:01:52][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[22:13:06][Zwonkoh] Ensured resource "traffic_density"
+[22:13:17][Zwonkoh] Ensured resource "traffic_density"
+[22:13:26][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[22:16:39][Zwonkoh] Ensured resource "traffic_density"
+[22:18:30][Zwonkoh] Ensured resource "traffic_density"
+[22:19:25][Zwonkoh] Ensured resource "traffic_density"
+[22:20:25][Zwonkoh] Ensured resource "traffic_density"
+[22:21:00][Zwonkoh] Ensured resource "traffic_density"
+[22:21:47][Zwonkoh] Ensured resource "traffic_density"
+[22:22:00][Zwonkoh] Ensured resource "traffic_density"
+[22:22:24][Zwonkoh] Ensured resource "traffic_density"
+[22:22:54][Zwonkoh] Ensured resource "traffic_density"
+[22:23:13][Zwonkoh] Ensured resource "traffic_density"
+[22:54:11][Zwonkoh] Refreshed resources
+[22:54:23][Zwonkoh] Refreshed resources
+[22:54:39][Zwonkoh] Ensured resource "NativeUI"
+[22:54:44][Zwonkoh] Refreshed resources
+[22:57:29][Zwonkoh] Ensured resource "NativeUI"
+[22:57:53][Zwonkoh] Refreshed resources
+[22:58:46][Zwonkoh] Refreshed resources
+[23:00:08][Zwonkoh] Refreshed resources
+[23:00:09][Zwonkoh] Ensured resource "menu"
+[23:06:45][Zwonkoh] Refreshed resources
+[23:06:46][Zwonkoh] Ensured resource "NativeUI"
+[23:06:51][Zwonkoh] Ensured resource "menu"
+[23:10:57][Zwonkoh] Refreshed resources
+[23:10:59][Zwonkoh] Ensured resource "menu"
+[23:11:03][Zwonkoh] Ensured resource "NativeUI"
+[23:11:33][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
+[23:11:52][Zwonkoh] Ensured resource "menu"
+[23:13:47][Zwonkoh] Refreshed resources
+[23:14:49][Zwonkoh] Refreshed resources
+[23:14:50][Zwonkoh] Refreshed resources
+[23:14:52][Zwonkoh] Ensured resource "Menu"
+[23:14:53][Zwonkoh] Ensured resource "NativeUI"
+[23:14:56][Zwonkoh] Refreshed resources
+[23:20:43][Zwonkoh] Refreshed resources
+[23:20:44][Zwonkoh] Ensured resource "Menu"
+[23:21:21][Zwonkoh] Ensured resource "Menu"
+[23:24:01][Zwonkoh] Ensured resource "Menu"
+[23:28:14][Zwonkoh] Ensured resource "Menu"
+[23:35:40][Zwonkoh] Refreshed resources
+[23:35:41][Zwonkoh] Ensured resource "Menu"
+[23:38:03][Zwonkoh] Stopped resource "ox_inventory"
+[23:45:07][Zwonkoh] Refreshed resources
+[23:45:11][Zwonkoh] Ensured resource "Menu"
+[23:47:46][Zwonkoh] Ensured resource "Menu"
+[23:49:39][Zwonkoh] Refreshed resources
+[23:49:39][Zwonkoh] Ensured resource "Menu"
+[23:50:53][Zwonkoh] Refreshed resources
+[23:50:54][Zwonkoh] Ensured resource "Menu"
+[23:53:20][Zwonkoh] Refreshed resources
+[23:53:20][Zwonkoh] Ensured resource "Menu"
+[23:55:13][Zwonkoh] Ensured resource "Menu"
+[23:55:41][Zwonkoh] Ensured resource "Menu"
+[23:58:39][Zwonkoh] Ensured resource "Menu"
+[23:59:35][Zwonkoh] Refreshed resources
+[23:59:36][Zwonkoh] Ensured resource "Menu"
+[00:03:10][Zwonkoh] Ensured resource "Menu"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 5.6.2025, 00:14:31
+================================================================
+[00:14:43][Zwonkoh] logged in from 127.0.0.1 via cfxre
+[00:15:34][Zwonkoh] Ensured resource "Menu"
+[00:18:04][Zwonkoh] Ensured resource "Menu"
+[00:20:10][Zwonkoh] Ensured resource "Menu"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 5.6.2025, 18:08:16
+================================================================
+[18:08:37][Zwonkoh] logged in from 127.0.0.1 via cfxre
+[18:37:32][Zwonkoh] Refreshed resources
+[18:37:59][Zwonkoh] Refreshed resources
+[18:38:12][Zwonkoh] Refreshed resources
+[18:38:48][Zwonkoh] Refreshed resources
+[18:39:20][Zwonkoh] Refreshed resources
+[18:39:56][Zwonkoh] Refreshed resources
+[18:41:40][Zwonkoh] Refreshed resources
+[18:41:42][Zwonkoh] Ensured resource "commands"
+[18:47:16][Zwonkoh] Stopped resource "ox_inventory"
+[18:47:45][Zwonkoh] Stopped resource "traffic_density"
+================================================================
+======== txAdmin v8.0.1 atop fxserver 15488 Starting - 5.6.2025, 22:04:31
+================================================================
+[22:04:55][Zwonkoh] logged in from 127.0.0.1 via cfxre
+[22:07:07][Zwonkoh] [Zwonkoh] executed "RESTART SERVER"
